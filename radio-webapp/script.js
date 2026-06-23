@@ -3,7 +3,7 @@
 // ============================================================
 
 const API_KEY    = 'AIzaSyAO70WEbLxgnOL5UmaymzUaPlyImPZpXBo';
-const WORKER_URL = '/play';   // Cloudflare Pages Function – ne változtasd
+const WORKER_URL = 'https://radio-relay.akilaci6999.workers.dev';
 
 // ============================================================
 
