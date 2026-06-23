@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>ExiledLife Rádió</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>EXILED<span>LIFE</span></h1>
+        <p class="subtitle">Rádió távirányító</p>
+        <p id="status" class="status"></p>
+    </header>
+
+    <form id="search-form">
+        <input id="search-input" type="text" placeholder="Keresés (előadó, cím...)" autocomplete="off">
+        <button type="submit">Keresés</button>
+    </form>
+
+    <div id="results"></div>
+
+    <footer>
+        <p>A kiválasztott szám a kocsidban fog szólni.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
